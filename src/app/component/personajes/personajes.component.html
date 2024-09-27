@@ -1,0 +1,12 @@
+<div id="personajes" class="characters-section">
+  <h2>Conoce a los Power Rangers Originales</h2>
+  <div class="cards-container">
+    <app-card
+      *ngFor="let character of characters"
+      [title]="character.title"
+      [description]="character.description"
+      [image]="character.image"
+      [hoverColor]="character.hoverColor">
+    </app-card>
+  </div>
+</div>

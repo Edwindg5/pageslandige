@@ -1,0 +1,19 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las tarjetas */
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px;
+}
+
+.characters-section {
+  padding: 40px;
+  background-color: #0f0f0f;
+  text-align: center;
+}
+
+.characters-section h2 {
+  font-size: 2rem;
+  color: #FFD700;
+  margin-bottom: 30px;
+}

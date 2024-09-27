@@ -1,0 +1,50 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px; 
+  background-color: #000;
+  position: fixed;
+  width: 100%; 
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo-text-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.logo-container img {
+  width: 80px; 
+}
+
+.power-icon h1 {
+  font-size: 1.8rem; 
+  color: #FFD700;
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 20px; 
+  flex-grow: 5; 
+  justify-content: flex-end; 
+}
+
+.header-buttons a {
+  background-color: #e5ff00;
+  color: rgb(0, 0, 0);
+  padding: 6px 12px; 
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.85rem; 
+  max-width: 100px; 
+  transition: background-color 0.3s ease;
+}
+
+.header-buttons a:hover {
+  background-color: #cc0000;
+}

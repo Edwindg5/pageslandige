@@ -1,0 +1,16 @@
+<div id="series" class="carousel-wrapper">
+  <div class="carousel-content" [class.fade]="isTransitioning">
+    <div class="series-details">
+      <img [src]="currentSeries.image" alt="{{ currentSeries.title }}" class="series-image">
+      <div class="series-info">
+        <h2>{{ currentSeries.title }}</h2>
+        <p>{{ currentSeries.description }} Esta serie icónica marcó el inicio de una larga franquicia de Power Rangers, presentando villanos memorables y momentos épicos en la lucha por salvar el mundo. Los Power Rangers enfrentaron desafíos que definieron su coraje y trabajo en equipo.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-controls">
+      <button (click)="previous()" class="control-button">ATRÁS</button>
+      <button (click)="next()" class="control-button">SIGUIENTE</button>
+    </div>
+  </div>
+</div>
