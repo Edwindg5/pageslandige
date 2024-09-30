@@ -11,7 +11,7 @@
 .carousel-content {
   background-color: #333;
   border-radius: 20px;
-  width: 100%; /* Ancho ajustado */
+  width: 100%; 
   max-width: 1400px;
   display: flex;
   align-items: center;
